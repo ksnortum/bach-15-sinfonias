@@ -24,6 +24,7 @@ global = {
 rightHand = \relative b' {
   \global
   \set Score.tempoHideNote = ##t
+  \tempo "Allegro moderato"
   \voiceOne
   b16 fs fs  g fs fs  b fs fs |
   cs'16 fs, fs  g fs fs  cs' fs, fs |
@@ -178,10 +179,6 @@ leftHand = \relative b, {
   b2.*3/4\fermata |
 }
 
-forceBreaks = {
-  
-}
-
 sinfoniaFifteenMusic = 
 \score { 
   \header {
@@ -190,14 +187,12 @@ sinfoniaFifteenMusic =
   \new PianoStaff \with { 
     instrumentName = \markup \huge "No. 15"
   }
-  \keepWithTag layout
   <<
     \new Staff = "upper" << 
       \new Voice \rightHand 
       \new Voice \middle 
     >>
     \new Staff = "lower" \leftHand
-    \new Devnull \forceBreaks
   >>
   \layout {}
 }
@@ -209,7 +204,6 @@ sinfoniaFifteenMidi =
   \header {
     midiOutputFile = "sinfonia-no15-B-min"
   }
-  \keepWithTag midi
   \articulate <<
     <<
       \new Staff = "upper" << \rightHand \middle >>

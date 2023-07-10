@@ -17,6 +17,7 @@ global = {
 rightHand = \relative g' {
   \global
   \set Score.tempoHideNote = ##t
+  \tempo "Allegro moderato"
   \voiceOne
   r16 g a b  c d e f  g f g a  f a g f |
   e2. fs4 |
@@ -116,7 +117,8 @@ leftHand = \relative c {
 }
 
 forceBreaks = {
-  \repeat unfold 9 { s1\noBreak s1\break }
+  \repeat unfold 4 { s1\noBreak s1\break\noPageBreak }
+  s1\noBreak s1\pageBreak
 }
 
 sinfoniaOneMusic = 

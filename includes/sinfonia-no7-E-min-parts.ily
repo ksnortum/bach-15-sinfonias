@@ -16,7 +16,8 @@ global = {
 
 rightHand = \relative b' {
   \global
-  % \set Score.tempoHideNote = ##t
+  \set Score.tempoHideNote = ##t
+  \tempo "Lento moderato"
   \voiceOne
   r8 b e fs g4~ |
   g8 fs a g fs e |
@@ -70,7 +71,7 @@ rightHand = \relative b' {
   \barNumberCheck 41
   c8 e a b c4~ |
   c16 b a g  fs a ds, e  fs4~ |
-  fs16 b ds, e e4 ds |
+  fs16 b ds, e \tempo 4 = 78 e4 \tempo 4 = 68 ds |
   e2. \fermataOverBarline |
   \bar "|."
 }

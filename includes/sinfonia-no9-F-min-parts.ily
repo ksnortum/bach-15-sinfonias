@@ -17,6 +17,7 @@ global = {
 rightHand = \relative c'' {
   \global
   \set Score.tempoHideNote = ##t
+  \tempo "Andante espressivo"
   \voiceOne
   R1 |
   \moveRestA R1 |

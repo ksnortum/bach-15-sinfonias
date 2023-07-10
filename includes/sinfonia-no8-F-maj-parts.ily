@@ -15,6 +15,7 @@ global = {
 rightHand = \relative f'' {
   \global
   \set Score.tempoHideNote = ##t
+  \tempo "Allegro moderato"
   \voiceOne
   R1 |
   r8 f16 e a8 g f\prall e16 d  g a f g |

@@ -16,6 +16,7 @@ global = {
 rightHand = \relative fs'' {
   \global
   \set Score.tempoHideNote = ##t
+  \tempo "Allegretto grazioso"
   \voiceOne
   r8 fs16 g a8 c,  b e16 fs g8 b, |
   a8 d16 e fs8 a,  g16 fs' e d  cs b' a g |
@@ -86,7 +87,7 @@ middle = \relative cs'' {
 leftHand = \relative d' {
   \clef bass
   \global
-  r4 r8 fs, g4 r8 e |
+  d4 r8 fs, g4 r8 e |
   fs4 r8 d  b' g a a, |
   d8 d' cs b  a16 gs a b  cs d cs b |
   as16 fs gs as  b cs b a  gs e fs gs  a b a g |
@@ -125,7 +126,6 @@ sinfoniaThreeMusic =
   \new PianoStaff \with { 
     instrumentName = \markup \huge "No. 3"
   } 
-  \keepWithTag layout  
   <<
     \new Staff = "upper" << 
       \new Voice \rightHand 
@@ -141,7 +141,6 @@ sinfoniaThreeMidi =
   \header {
     midiOutputFile = "sinfonia-no3-D-maj"
   }
-  \keepWithTag midi
   <<
     \new Staff = "upper" << \rightHand \middle >>
     \new Staff = "lower" \leftHand

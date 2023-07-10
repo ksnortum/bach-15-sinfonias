@@ -19,6 +19,7 @@ global = {
 rightHand = \relative f'' {
   \global
   \set Score.tempoHideNote = ##t
+  \tempo "Andante con moto"
   \voiceOne
   R1 |
   r8 f8~ f16 ef d c  bf8 d  a16 bf c8 |

@@ -19,6 +19,7 @@ global = {
 rightHand = \relative a' {
   \global
   \set Score.tempoHideNote = ##t
+  \tempo "Allegro"
   \voiceOne
   a8 gs16 a  b8 a16 gs  a4~ a16 b gs a |
   b16 e, cs' e,  d' e, e'8  cs16 b a b  cs ds e fs |
@@ -106,7 +107,7 @@ leftHand = \relative a {
   \global
   a8 r gs r fs r cs r |
   d8 r e r a,\noBeam a' gs fs |
-  e8 r %{\clef treble%} \voiceFour ds' r cs r gs r |
+  e8 r \voiceFour ds' r cs r gs r |
   \clef treble a8 r b r e r r4 |
   \clef bass a,8 gs16 a  b8 a16 gs  a4~ a16 b gs a |
   b16 e, cs' e,  d' e, e'8  cs16 b a b  cs ds e fs |
@@ -156,7 +157,6 @@ sinfoniaTwelveMusic =
   \new PianoStaff \with { 
     instrumentName = \markup \huge "No. 12"
   } 
-  \keepWithTag layout  
   <<
     \new Staff = "upper" << 
       \new Voice \rightHand 
@@ -173,7 +173,6 @@ sinfoniaTwelveMidi =
   \header {
     midiOutputFile = "sinfonia-no12-A-maj"
   }
-  \keepWithTag midi
   <<
     \new Staff = "upper" << \rightHand \middle >>
     \new Staff = "lower" \leftHand

@@ -18,11 +18,10 @@ global = {
 rightHand = \relative d'' {
   \global
   \set Score.tempoHideNote = ##t
+  \tempo "Allegretto moderato"
   \voiceOne
   r16 d cs d  a8 f'~  f16 e d e  a,8 g'~ |
-  g16 f e d a'4~  a16 gs fs gs  
-    \tag layout { gs8.\downprall a16 | }
-    \tag midi   { \tuplet 3/2 { a32 gs a gs fs gs~ } g16 a }
+  g16 f e d a'4~  a16 gs fs gs  gs8. a16 | 
   a4~ a16 d, cs d  g4~ g16 cs, b cs |
   f4. a8 g4~ g16 f e f |
   d4  r16 bf'a bf  e,4~ e16 a g a |
@@ -124,7 +123,6 @@ sinfoniaFourMusic = \score {
   \new PianoStaff \with { 
     instrumentName = \markup \huge "No. 4"
   } 
-  \keepWithTag layout  
   <<
     \new Staff = "upper" << 
       \new Voice \rightHand 
@@ -140,7 +138,6 @@ sinfoniaFourMidi =
   \header {
     midiOutputFile = "sinfonia-no4-D-min"
   }
-  \keepWithTag midi
   <<
     \new Staff = "upper" << \rightHand \middle >>
     \new Staff = "lower" \leftHand

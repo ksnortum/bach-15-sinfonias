@@ -16,7 +16,8 @@ global = {
 
 rightHand = \relative bf' {
   \global
-  % \set Score.tempoHideNote = ##t
+  \set Score.tempoHideNote = ##t
+  \tempo "Allegro moderato"
   \voiceOne
   r4 r8 r16 bf[ ef8.\mordent f16 ]|
   \appoggiatura { ef8 } d4~ d8.[ c16 df8. ef16 ]|
@@ -62,7 +63,7 @@ rightHand = \relative bf' {
   c4 bf2~ |
   bf4 af2~ |
   af4~ af8.[ g16 c8. c16] |
-  f,4~ f8.[ f16 bf8.\mordent c16] |
+  f,4~ \tempo 4 = 86 f8.[ f16 \tempo 4 = 76 bf8.\mordent c16] |
   g2. \fermataOverBarline |
   \bar "|."
 }
