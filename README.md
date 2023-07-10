@@ -2,7 +2,7 @@
 LilyPond source files for Johann Sebastian Bach's 15 Sinfonia.
 
 ## Requirements
-LilyPond version 2.24.0 or higher. (*Note:* LilyPond is not always backwards-compatible.  If you have a later version, be sure to run `convert'ly` on all the files.  All files were compiled with version 2.24.1.)
+LilyPond version 2.24.0 or higher. (*Note:* LilyPond is not always backwards-compatible.  If you have a later version, be sure to run `convert.ly` on all the files.  All files were compiled with version 2.24.1.)
 
 ## Producing PDFs or other outputs
 You can always go to my latest release [here](https://github.com/ksnortum/15-sinfonias/releases/latest), or use [Frescobaldi](https://www.frescobaldi.org/), or create the PDFs from the command line.  It is assumed that `lilypond` is in the PATH of your system.
