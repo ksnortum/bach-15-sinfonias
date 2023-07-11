@@ -294,10 +294,12 @@ sinfoniaThirteenMidi =
   \header {
     midiOutputFile = "sinfonia-no13-A-min"
   }
+  \keepWithTag midi
   \articulate <<
     <<
-      \new Staff = "upper" << \rightHand \middle >>
-      \new Staff = "lower" \leftHand
+      \new Staff = "upper" { \upperMidiInstrument \rightHand }
+      \new Staff = "middle" { \middleMidiInstrument \middle }
+      \new Staff = "lower" { \lowerMidiInstrument \leftHand }
     >>
   >>
   \midi {

@@ -13,10 +13,22 @@ fermataUnderBarline = {
 }
 
 staffDown = {
-  \change Staff = "lower"
+  \tag layout { \change Staff = "lower" }
   \voiceThree
 }
 staffUp = {
-  \change Staff = "upper"
+  \tag layout { \change Staff = "upper" }
   \voiceTwo
+}
+
+upperMidiInstrument = {
+  \set Staff.midiInstrument = #"acoustic grand"
+}
+
+middleMidiInstrument = {
+  \set Staff.midiInstrument = #"acoustic grand"
+}
+
+lowerMidiInstrument = {
+  \set Staff.midiInstrument = #"acoustic grand"
 }
