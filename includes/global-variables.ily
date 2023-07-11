@@ -13,10 +13,10 @@ fermataUnderBarline = {
 }
 
 staffDown = {
-  \change Staff = "lower"
+  \tag layout { \change Staff = "lower" }
   \voiceThree
 }
 staffUp = {
-  \change Staff = "upper"
+  \tag layout { \change Staff = "upper" }
   \voiceTwo
 }

@@ -183,6 +183,7 @@ sinfoniaTenMidi =
   \header {
     midiOutputFile = "sinfonia-no10-G-maj"
   }
+  \keepWithTag midi
   <<
     \new Staff = "upper" << \rightHand \middle >>
     \new Staff = "lower" \leftHand

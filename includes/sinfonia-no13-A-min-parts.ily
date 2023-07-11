@@ -294,6 +294,7 @@ sinfoniaThirteenMidi =
   \header {
     midiOutputFile = "sinfonia-no13-A-min"
   }
+  \keepWithTag midi
   \articulate <<
     <<
       \new Staff = "upper" << \rightHand \middle >>

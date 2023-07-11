@@ -173,6 +173,7 @@ sinfoniaTwelveMidi =
   \header {
     midiOutputFile = "sinfonia-no12-A-maj"
   }
+  \keepWithTag midi
   <<
     \new Staff = "upper" << \rightHand \middle >>
     \new Staff = "lower" \leftHand

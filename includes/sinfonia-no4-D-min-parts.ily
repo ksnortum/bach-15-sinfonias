@@ -138,6 +138,7 @@ sinfoniaFourMidi =
   \header {
     midiOutputFile = "sinfonia-no4-D-min"
   }
+  \keepWithTag midi
   <<
     \new Staff = "upper" << \rightHand \middle >>
     \new Staff = "lower" \leftHand

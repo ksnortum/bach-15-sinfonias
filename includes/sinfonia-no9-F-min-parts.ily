@@ -185,6 +185,7 @@ sinfoniaNineMidi =
   \header {
     midiOutputFile = "sinfonia-no9-F-min"
   }
+  \keepWithTag midi
   \articulate <<
     <<
       \new Staff = "upper" << \rightHand \middle >>

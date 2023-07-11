@@ -209,6 +209,7 @@ sinfoniaSixMidi =
   \header {
     midiOutputFile = "sinfonia-no6-E-maj"
   }
+  \keepWithTag midi
   \articulate <<
     <<
       \new Staff = "upper" << \rightHand \middle >>

@@ -141,6 +141,7 @@ sinfoniaThreeMidi =
   \header {
     midiOutputFile = "sinfonia-no3-D-maj"
   }
+  \keepWithTag midi
   <<
     \new Staff = "upper" << \rightHand \middle >>
     \new Staff = "lower" \leftHand

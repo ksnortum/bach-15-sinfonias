@@ -204,6 +204,7 @@ sinfoniaFifteenMidi =
   \header {
     midiOutputFile = "sinfonia-no15-B-min"
   }
+  \keepWithTag midi
   \articulate <<
     <<
       \new Staff = "upper" << \rightHand \middle >>
