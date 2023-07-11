@@ -175,8 +175,9 @@ sinfoniaTwelveMidi =
   }
   \keepWithTag midi
   <<
-    \new Staff = "upper" << \rightHand \middle >>
-    \new Staff = "lower" \leftHand
+    \new Staff = "upper" { \upperMidiInstrument \rightHand }
+    \new Staff = "middle" { \middleMidiInstrument \middle }
+    \new Staff = "lower" { \lowerMidiInstrument \leftHand }
   >>
   \midi {
     \tempo 4 = 112

@@ -20,3 +20,15 @@ staffUp = {
   \tag layout { \change Staff = "upper" }
   \voiceTwo
 }
+
+upperMidiInstrument = {
+  \set Staff.midiInstrument = #"acoustic grand"
+}
+
+middleMidiInstrument = {
+  \set Staff.midiInstrument = #"acoustic grand"
+}
+
+lowerMidiInstrument = {
+  \set Staff.midiInstrument = #"acoustic grand"
+}
