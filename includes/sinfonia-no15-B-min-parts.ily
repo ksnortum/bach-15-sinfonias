@@ -28,7 +28,7 @@ rightHand = \relative b' {
   \voiceOne
   b16 fs fs  g fs fs  b fs fs |
   cs'16 fs, fs  g fs fs  cs' fs, fs |
-  d'32 b d fs b fs  d fs d b fs b  fs b fs d fs d |
+  d'32 b d fs b fs  d fs d b d b  fs b fs d fs d |
   \parenthesize b16 r r  r b' cs  d cs b |
   as8.~ as16 b cs  b cs as |
   b32 fs b d fs d  b d b fs b fs  d fs d b d b |
@@ -37,7 +37,7 @@ rightHand = \relative b' {
   
   \barNumberCheck 9
   cs4.~ cs8.~ |
-  cs16 a a  b a a  cs a a |
+  cs16 a a  b a a  d a a |
   b32 d b g b g  e8.  e'32 g e cs e cs |
   a32 cs a fs a fs  d8.  d'32 fs d b d b |
   g32 b g e g e  cs e cs a cs a  a'16 fs g |
