@@ -61,7 +61,7 @@ rightHand = \relative b' {
   \tempo 4. = 40
   \appoggiatura { e'8 } ds4.\fermata \tempo 4. = 84 r4 r8 r4 r8 |
   \oneVoice e ds cs  b a gs  a gs b |
-  e4. r4 r8 r4 r8 |
+  cs4. r4 r8 r4 r8 |
   b'8 a gs  fs e ds  e ds fs~ |
   fs16 e ds cs gs'8~  gs16 fs e ds a'8~  a16 gs fs e b'8~
   b8 b, cs  ds e fs  e fs ds |
@@ -146,7 +146,7 @@ leftHand = \relative e' {
   fs4. r4 r8 r4 cs'8 |
   \oneVoice ds8 fs cs  ds fs as,  b ds fs, |
   gs8 b fs  gs b ds,  e gs b, |
-  cs8 e b  cs e gs,  as cs es, |
+  cs8 e b  cs e gs,  as cs e, |
   fs4. e'!4. r4 r8 |
   
   \barNumberCheck 17
