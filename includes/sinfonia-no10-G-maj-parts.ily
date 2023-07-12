@@ -143,13 +143,13 @@ leftHand = \relative g, {
   e4 fs fs, |
   \oneVoice b4~ b16 a b c  d e f c |
   d16 e d c  b a gs fs  e d' c b |
-  a4~ a16 gs a b  c d e b |
+  a4~ a16 g a b  c d e b |
   
   \barNumberCheck 25
   c16 d c b  a g fs e  d c' b a |
   g8[ b] d fs g b |
   c8 a \clef treble \voiceFour d4~ d16 e d c |
-  \oneVoice b8 g \voiceFour c4~ c16 e c b |
+  \oneVoice b8 g \voiceFour c4~ c16 d c b |
   \oneVoice a8 fs! \voiceFour b4~ \clef bass b16 c b a |
   g8 e a4~ a16 b a g |
   \oneVoice fs16 e d c  b a g fs  g a b g |
