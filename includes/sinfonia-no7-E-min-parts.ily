@@ -100,7 +100,7 @@ middle = \relative fs' {
   
   \barNumberCheck 17
   e4. fs8 g e |
-  cs8 \staffDown as cs d e4~ |
+  cs8 \staffDown fs, cs' d e4~ |
   e16 \staffUp g fs e  d fs d cs  \staffDown b \staffUp fs' \staffDown b, a |
   g4 \staffUp r4 g'4~ |
   g16 g e d  cs e cs b  \staffDown a \staffUp e' \staffDown a, g |
@@ -179,8 +179,8 @@ leftHand = \relative e {
   
   \barNumberCheck 33
   b8 gs a4 r8 c |
-  d8 c e d c b |
-  c8 a d e fs4~ |
+  d8 c e d c a |
+  d8 a d e fs4~ |
   fs8 e a g fs e |
   ds4 r8 b e d |
   \oneVoice c2.~ |

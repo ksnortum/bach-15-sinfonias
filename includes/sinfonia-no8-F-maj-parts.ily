@@ -41,7 +41,7 @@ rightHand = \relative f'' {
   \oneVoice c8\prall bf16 a  d ef c d  bf8 d16 bf  g'8 f |
   ef8\prall d16 c  f g ef f  d4 \voiceOne r8 d16 bf |
   e4 r8 e16 c f4 r8 f16 d |
-  g4~ g16 e f8~ f4 f16 d e g |
+  g4~ g16 e f8~ f4~ f16 d e g |
   c,16 bf c a  d8 c  bf\prall a16 g  c d bf c |
   \tempo 4 = 82 a8. bf16 \tempo 4 = 72 g8. f16 f2 \fermataOverBarline |
   \bar "|."
@@ -56,7 +56,7 @@ middle = \relative c'' {
   f4 r8 a16 f b4 r8 b16 g |
   c4 r8 c16 a d4~ d16 b c8~ |
   c4~ c16 a b d  g, f g e  a8 g |
-  ff8\prall e16 f  g16 a f g  e8 r r4 |
+  f8\prall e16 d  g16 a f g  e8 r r4 |
   R1 |
   
   \barNumberCheck 9
@@ -104,8 +104,8 @@ leftHand = \relative f, {
   \barNumberCheck 17
   g16 f g a  g bf a c  \clef treble \voiceFour bf2~ |
   bf2~ bf16 c bf a  g a bf g |
-  c8 bf \clef bass a\prall g16 f  bf16 c d c  bf a bf g |
-  \oneVoice c8 c, c'16 bf c bf  d8 d,  d'16 c d bf |
+  c8 bf \clef bass a\prall g16 f  bf16 c a c  bf a bf g |
+  \oneVoice c8 c, c'16 bf c a  d8 d,  d'16 c d bf |
   e8 c16 a  d8 c  bf\prall a16 g  c d bf c |
   a8 d16 c  bf c a bf  g8 a16 bf  c8 e, |
   f8 d16 bf  c8 c, f2 \fermataUnderBarline |

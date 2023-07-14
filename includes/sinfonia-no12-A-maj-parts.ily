@@ -25,7 +25,7 @@ rightHand = \relative a' {
   b16 e, cs' e,  d' e, e'8  cs16 b a b  cs ds e fs |
   \oneVoice gs16 a b8~ b16 a gs fs  e ds cs b  \voiceOne e4~ |
   e4 ds e8 d16 cs  d e fs gs |
-  a8. a16 gs8. g16 fs8. fs16 e8. e16 |
+  a8. a16 gs8. gs16 fs8. fs16 e8. e16 |
   d8 cs b4 a8 cs fs4~ |
   fs8 b, e4~ e8 ds16 e  fs8 e16 ds |
   e4~ e16 fs ds e  fs b, gs' b, a' b, b'8 |
@@ -44,7 +44,7 @@ rightHand = \relative a' {
   fs8 b, gs'4~ gs8 cs, a'4~ |
   a8 ds, b' a  gs gs16 a  b8 a16 gs |
   a4 gs fs a~ |
-  a8 gs16 a  b a gs fs  e d cs b  a cs e gs |
+  a8 gs16 a  b a gs fs  e d cs b  a cs e g |
   fs2~ fs8 d16 e  fs8 e16 d |
   e2~ e8 cs16 d  e8 d16 cs |
   d2~ d8 b16 cs  d8 cs16 b |

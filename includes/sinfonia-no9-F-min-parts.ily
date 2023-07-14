@@ -69,7 +69,7 @@ middle = \relative f' {
   \global
   \voiceTwo
   r8 f af g r g bf a |
-  r8 bf e f~ f8 ef16 d  c8 bf |
+  r8 bf e f~ f8 ef16 df c8 bf |
   af4 c b bf |
   a4 \staffDown af g8 \staffUp c4 b8 |
   c4 r8 c df c \staffDown bf4~ |
@@ -110,7 +110,7 @@ middle = \relative f' {
   \barNumberCheck 33
   f8 \staffDown f, af g r g bf a |
   r8 bf \staffUp e f~ f8 ef16 df c8 bf |
-  af1 |
+  a1 |
 }
 
 leftHand = \relative f, {
@@ -118,7 +118,7 @@ leftHand = \relative f, {
   \global
   f4 f' e ef |
   d df c8 bf c c, |
-  f4 r8 f'16 g32 a  a16 fs g8  r \clef treble g'16 e |
+  f4 r8 f'16 g32 af af16 fs g8  r \clef treble g'16 e |
   df16 b c8  \voiceFour r d16 ef32 f  ef8 f g g, |
   \stemUp c4 r r2 |
   R1 |

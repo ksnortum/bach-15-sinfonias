@@ -87,8 +87,8 @@ rightHand = \relative a' {
   \barNumberCheck 49
   \oneVoice a16 c e a8 gs16 |
   a16 e c a8 gs16 |
-  a c e a gs a |
-  e8 a, b |
+  a c e a gs b |
+  e,8 a, b |
   \voiceOne c4 d8 |
   e4 f8 |
   e8 d4 |
@@ -159,7 +159,7 @@ middle = \relative e' {
   g4 r8 |
   \staffDown r8 g, a |
   b4 \staffUp c8 |
-  b8\noBeam \staffDown a a~ |
+  b8\noBeam \staffDown a4~ |
   a16 g a g a b |
   \staffUp c g' f e f g |
   e8 d4 |

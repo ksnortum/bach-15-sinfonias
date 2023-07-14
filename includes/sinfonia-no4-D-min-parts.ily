@@ -27,7 +27,7 @@ rightHand = \relative d'' {
   d4  r16 bf'a bf  e,4~ e16 a g a |
   d,4~ d16 d e f  g4~ g16 f e d |
   c2~ c16 bf a bf  g d' c d |
-  g,16 bf a bf~ bf c bf c  a4 r8 f'8 |
+  g,16 bf a bf~ bf c bf c  a4 r8 f'8~ |
    
   \barNumberCheck 9
   f16 e8. r8 g~ g16 f e f  c8 a'~ |
@@ -37,11 +37,11 @@ rightHand = \relative d'' {
   b16 a gs a~ a16 gs fs gs  r16 a gs a e8 c'~ |
   c16 b a b e,8 d'~ d16 c b c ef4~ |
   ef16 d8. r8 fs g2~ |
-  g16 fs bf a  fs4  g16 d a d  g,8 f'~ |
+  g16 fs bf a  fs4  g16 d c d  g,8 f'~ |
   
   \barNumberCheck 17
   f16 e d e  c8 bf'~ bf16 a g bf  a g f e |
-  d4~ d16 f e f  cs4~ cs16 a d c |
+  d4~ d16 f e d  cs4~ cs16 a d c |
   bf2~ bf16 a gs b  a g f g |
   f4~ f16 a g a  bf8 b c cs |
   d2~ d4. d8 |
@@ -69,7 +69,7 @@ middle = \relative a' {
   bf4~ bf16 a bf g  cs4  d16 bf a bf |
   gs8 a fs f  e4 ds8 d |
   cs8 c b4 a r |
-  r2 \staffDown r16 e' fs e a,8 \staffUp g'~ |
+  r2 \staffDown r16 e' ds e a,8 \staffUp g'~ |
   g16 fs e fs d8 c'~ c16 bf a bf  c d c d |
   ef4~ ef16 d ef c  d r r8 r4 |
   
@@ -100,14 +100,14 @@ leftHand = \relative c {
   c'8 d e c  f g a f |
   c'8 d e c  f16 c bf c f,8 f'~ |
   f16 bf, a bf e,8 e'~ e16 a, g a  d,8 d'~ |
-  d8 c~  c16 b a b  gs8 a~  a16 g fs g |
+  d8 c~  c16 b a b  gs8 a~  a16 gs fs gs |
   a8 ds, e e,  a b c a |
   e' fs gs e  \voiceFour a4~  a16 g fs g
   \oneVoice d8 c bf a  g16 g' fs g  d8 bf'~ |
-  bf a g a  d,8 c'~ c16 bf a g |
+  bf16 a g a  d,8 c'~ c16 bf a bf c bf a g |
   
   \barNumberCheck 17
-  c8 d f c  \voiceFour f,4 r8 f |
+  c8 d e c  \voiceFour f,4 r8 f |
   bf8 a g bf  a g f d |
   g8 f g e  a b cs a |
   d16 d, cs d  a8 f'~  f16 e d e  a,8 g'~ |

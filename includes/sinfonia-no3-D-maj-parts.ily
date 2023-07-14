@@ -34,7 +34,7 @@ rightHand = \relative fs'' {
   d16 cs b cs  d b cs d  es, gs a b  \voiceOne cs4~ |
   cs16 fs, gs a  b4~ b16 es, fs gs  a4~ |
   a16 a gs fs  es4 fs8 fs'16 g a8 c, |
-  b4 fs' fs16 g fs e  ds c' b a |
+  b4 fs'~ fs16 g fs e  ds c' b a |
   g16 a g fs  e fs g e  cs8 e16 fs g8 b, |
   
   \barNumberCheck 17
@@ -43,8 +43,8 @@ rightHand = \relative fs'' {
   b16 a g a  b c d8~ d4 c~ |
   c4 b~  b8 g' a, fs' |
   g16 d e fs  g b a g  fs e d e  fs g fs e |
-  ds16 b cs ds  g fs g d  cs a b cs  d e d cs |
-  b16 a g fs e8 cs'  d fs16 g a8 cs, |
+  ds16 b cs ds  e fs e d  cs a b cs  d e d cs |
+  b16 a g fs e8 cs'  d fs16 g a8 c, |
   b8 e16 fs g8 b,  a d16 e fs8 a, |
   g16 fs'e d  cs4 d2 \fermata |
   \bar "|."
@@ -69,7 +69,7 @@ middle = \relative cs'' {
   b8 a gs fs  gs4~ gs16 \staffUp gs' fs e |
   ds4~ ds16 fs e d  cs4~ cs16 e d cs |
   b4~ b16 d cs b  a8 r r4 |
-  r8 fs'16 g a8 \staffDown cs, b2~ |
+  r8 fs'16 g a8 \staffDown c, b2~ |
   b8 e16 fs g8 b, a4 e'~ |
   
   \barNumberCheck 17
@@ -109,9 +109,9 @@ leftHand = \relative d' {
   \barNumberCheck 17
   cs,8 e16 fs g8 cs,  \oneVoice d a16 b c8 e, |
   d1 |
-  g8 b'16 c d8 f,  e a16 b cs8 e, |
+  g8 b'16 c d8 f,  e a16 b c8 e, |
   d8 g16 a b8 d,  c16 b' a g  fs e' d c |
-  g16 a g a  b a b cs \voiceFour d4 a~ |
+  b16 a g a  b a b cs \voiceFour d4 a~ |
   a4 g2 fs4~ |
   fs16 e fs g  a g fs e  d cs d e  fs g fs e |
   \oneVoice ds16 b cs ds  e fs e d  cs a b cs  d e d cs |

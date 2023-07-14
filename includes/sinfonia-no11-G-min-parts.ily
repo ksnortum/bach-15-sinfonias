@@ -181,7 +181,7 @@ middle = \relative a' {
   \barNumberCheck 49
   \staffDown c,8 bf \staffUp c |
   f4. |
-  \staffDown bf,8 af \staffUp bf |
+  \staffDown bf,8 a \staffUp bf |
   ef4.~ |
   ef4. |
   d4. |
@@ -196,7 +196,7 @@ middle = \relative a' {
   a4 g8 |
   fs4 e8 |
   r16 d fs a d8~ |
-  d8 r r |
+  d8. r16 r8 |
   
   \barNumberCheck 65
   \staffUp R4. |
@@ -287,8 +287,8 @@ leftHand = \relative g {
   d4.~ |
   d4.~ |
   d4.~ |
-  d4.~ |
-  d4.~ |
+  d4. |
+  r16 d16~ d4~ |
   d8. c'16 bf a |
   
   \barNumberCheck 65

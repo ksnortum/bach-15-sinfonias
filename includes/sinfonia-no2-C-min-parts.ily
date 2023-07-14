@@ -98,11 +98,11 @@ middle = \relative c' {
   bf,4 r8 r4 g'8 ef4.~ ef4 a8 |
   fs8 d'16 c bf a  g a g f ef d  ef4.~ ef8 a, c |
   bf4 r8 r4 r8 r4 bf'8 g4 bf8 |
-  e,4 r8 r4 r8  r16 f' ef df c \staffDown \clef treble bf  a bf a g f ef |
+  e,4 r8 r4 r8  r16 f' ef df c \staffDown \clef treble bf  af bf af g f ef |
   d8 bf f'  f d af' af2.~ |
   af8 f d'  d bf \staffUp d  ef2.~ |
   ef8 c4~ c ef8 d2.~ |
-  d8 b4 b d8 c2.~ |
+  d8 b4~ b d8 c2.~ |
   
   \barNumberCheck 25
   c4 r8 r4 r8 r g16 f ef d  \staffDown \beamPositionsA c \staffUp d c 
@@ -136,8 +136,8 @@ leftHand = \relative c {
   d'8 c bf  a g fs  g4 d'8 g,4 bf8 |
   c,4 r8 r4 r8 r4 c'8 f,4 a8 |
   bf,4 r8 r4 r8 
-    \tag layout { bf2.~\startTrillSpan | bf2.~ bf4. a\stopTrillSpan | }
-    \tag midi   { \repeat unfold 15 { bf16 c } a4. }
+    \tag layout { bf2.~\startTrillSpan | bf2.~ bf4. a~\stopTrillSpan | }
+    \tag midi   { \repeat unfold 15 { bf16 c } a4.~ }
   
   \barNumberCheck 17
   a8 d16 c bf a  g a g f ef d  c8 ef'16 d c bf  a bf a g fs e |

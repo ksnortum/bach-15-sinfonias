@@ -92,12 +92,12 @@ leftHand = \relative bf {
   \global
   bf8 d c bf  a g f ef |
   \voiceFour d4 f g c |
-  d4~ d16 d bf f  c'8 ef~ ef16 c a f |
+  d4~ d16 d bf g  c8 ef~ ef16 c a f |
   \oneVoice bf4~ bf16 bf a g  f8 g  d16 ef f8 |
   bf,8 ef  bf16 c d8  g, c  g16 a bf8 |
   \voiceFour ef,8 ef'~  ef16 c' a f  d8 g  ef16 c f a |
-  \oneVoice bf,16 bf' g f \tag layout { ef4\trill } 
-                          \tag midi   { f32 e f e f e f e }  
+  \oneVoice bf,16 bf' g d \tag layout { ef4\trill }
+                          \tag midi   { f32 ef f ef f ef f ef }
                           d16 c' bf a  g bf af g |
   \voiceFour f16 af g f  ef8 c  f16 ef f g  af g f ef |
   
@@ -108,7 +108,7 @@ leftHand = \relative bf {
   f16 g' f e  d8 e16 f  \voiceFour g2~ |
   g16 bf a g  fs d e fs  g fs g a  bf8 a |
   \oneVoice g16 e f g  a8 a,  d16 a' f d  d'8 f~ |
-  f16 ef d c  b8 g  c16 g ef c  c' d c b |
+  f16 ef d c  b8 g  c16 g ef c  bf' d c bf |
   a16 g f ef  f8. g16  af bf af g  f ef d c |
   
   \barNumberCheck 17
