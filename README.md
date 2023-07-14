@@ -17,6 +17,9 @@ The PDF produced will have point-and-click info in it, which you may not want (i
 
 There are also fifteen LilyPond files to create the sinfonia separately: `sinfonia-no1-C-maj.ly`, `sinfonia-no2-C-min.ly`, etc.
 
+## Thanks
+Many thanks to @phmcarty for his proofreading and, when the sources disagreed, investigating.
+
 ## Licensing
 This work is licensed under CC BY-SA 4.0. To view a copy of this license, visit [http://creativecommons.org/licenses/by-sa/4.0/](http://creativecommons.org/licenses/by-sa/4.0/).
 
