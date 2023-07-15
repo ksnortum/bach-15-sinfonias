@@ -38,7 +38,7 @@ rightHand = \relative f'' {
   
   \barNumberCheck 17
   f8 d16 bf  ef4~ ef8 d16 bf ef8 d |
-  \oneVoice c8\prall bf16 a  d ef c d  bf8 d16 bf  g'8 f |
+  \oneVoice c8\prall bf16 a  d ef c d  bf8 f'16 d  g8 f |
   ef8\prall d16 c  f g ef f  d4 \voiceOne r8 d16 bf |
   e4 r8 e16 c f4 r8 f16 d |
   g4~ g16 e f8~ f4~ f16 d e g |
