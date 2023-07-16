@@ -1,4 +1,4 @@
-# 15-sinfonias
+# bach-15-sinfonias
 LilyPond source files for Johann Sebastian Bach's 15 Sinfonias.
 
 ## Requirements
