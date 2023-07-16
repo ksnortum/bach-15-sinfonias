@@ -127,8 +127,8 @@ middle = \relative e' {
   
   \barNumberCheck 17
   a8 d, g~ |
-  g8 \parenthesize f16 g a b |
-  c8 \staffDown e,16 f g a |
+  g8 \staffDown f16 g a b |
+  c8 e,16 f g a |
   b8 a b |
   \staffUp c8 e, f |
   g4 a8 |
@@ -210,8 +210,8 @@ leftHand = \relative a, {
   
   \barNumberCheck 17
   g16 a b c d e |
-  f8 \clef treble \oneVoice f4 |
-  e8 \voiceFour e4 |
+  \clef treble f4. |
+  e4. |
   d4. |
   \clef bass c,16 e g c8 b16 |
   c16 g e c8 b16 |

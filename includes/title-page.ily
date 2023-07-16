@@ -13,7 +13,7 @@ titlePage = \bookpart {
 
   \markup { \fill-line { \center-column {
     \vspace #14
-    \line { \abs-fontsize #36 \bold "15 Sinfonia" }
+    \line { \abs-fontsize #36 \bold "15 Sinfonias" }
     \vspace #3
     \line { \abs-fontsize #20 "BWV 786-801" } % ?
     \vspace #4

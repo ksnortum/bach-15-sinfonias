@@ -147,7 +147,7 @@ leftHand = \relative e' {
   \oneVoice ds8 fs cs  ds fs as,  b ds fs, |
   gs8 b fs  gs b ds,  e gs b, |
   cs8 e b  cs e gs,  as cs e, |
-  fs4. e'!4. r4 r8 |
+  fs4. e'4. r4 r8 |
   
   \barNumberCheck 17
   ds4. e fs |

@@ -75,11 +75,11 @@ middle = \relative a' {
   
   \barNumberCheck 17
   r2 \staffDown r16 f, e f c8 \staffUp a'~ |
-  a16 g f g \staffDown b,8 \staffUp g'~ g16 f e f \staffDown a,8
+  a16 g f g \staffDown bf,8 \staffUp g'~ g16 f e f \staffDown a,8
     \staffUp f'~ |
   f16 e d f  ef d cs d  cs8 d e4~ |
   e8 a, d4~ d16 g f g  e bf' a g |
-  a16 d, c'8~ c16 bf c bf  a g fs g d8 bf'~ |
+  a16 d, c'8~ c16 bf a bf  a g fs g d8 bf'~ |
   bf16 a g a  d,8 g~ g16 f e f  b,8 e~ |
   e16 d cs d~  d16 cs b cs  d2 |
 }
